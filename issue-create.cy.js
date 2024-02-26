@@ -80,7 +80,7 @@ describe("ADD MORE TESTS FOR COVERING ISSUE CREATION FUNCTIONALITY", () => {
     cy.visit("/");
     cy.get('[data-testid="icon:plus"]').click();
     //Description: “My bug description”
-    cy.get(".ql-editor").type("OOOPEN YOOOOUR MIIIIIIIND");
+    cy.get(".ql-editor").type("WHAT IS");
     //Issue type: “Bug”
     cy.get('[data-testid="select:type"]').click();
     cy.get('[data-testid="select-option:Bug"]').trigger("click");
